@@ -1,0 +1,57 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    width: 345px;
+    height: 334px;
+    
+
+    p{
+        margin-top: 20px;
+        max-width: 300px;
+        color: #272D38;
+        margin-bottom: 20px;
+    }
+
+    h4{
+        color: #272D38;
+       margin-top: 5px;
+
+    }
+
+    img{
+        margin-top: 20px;
+    }
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    max-width: 400px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

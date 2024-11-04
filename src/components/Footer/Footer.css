@@ -1,0 +1,39 @@
+.footer__wrap{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+   
+
+    h4{
+        margin-bottom: 20px;
+    }
+}
+
+.footer__text{
+    display: flex;
+    margin-top: 105px;
+    flex-direction: column;
+    gap: 15px;
+
+    p{
+        color: #272D38;
+    }
+
+}
+
+.text{
+   max-width: 200px;
+}
+
+.text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    /* margin-bottom: 20px; */
+}
+
+.footer__wrapper{
+    background-color:#F6F6F6;
+}
